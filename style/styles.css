@@ -1,0 +1,157 @@
+.googleaccount{
+  width: 46px;
+  height: 48px;
+  border-radius: 100%;
+}
+.navbar {
+    display:flex;
+    justify-content: flex-end;
+    /* float: right; */
+    color: grey;
+    height: 90px;
+    grid-template-columns: 1fr 3fr 1fr;
+    text-decoration: none;
+    grid-auto-flow: row;
+    font-size: 14px;
+    margin-bottom: 10px;
+    height: 100%;
+    
+}
+
+.searchsection {
+  display: grid;
+  grid:
+  'top top top'
+  'searchbar1 searchbar2 searchbar3'
+  'bottom bottom bottom';
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 100px 400px 1fr;
+  justify-items: center;
+  align-items: space-between;
+  
+}
+
+
+.google {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 2/ 3;
+  margin-top: 65px;
+  
+}
+  .searchbar{
+  display: flex; 
+  grid-template-areas: 'searchbar2';
+  background-position: left;
+  background-size: 50px;
+  grid-column: 2/ 3;
+  grid-row: 2/ 3;
+  align-self: center;
+  border: 1px solid grey;
+  border-radius: 25px 25px;
+  height: 50px;
+  width: 570px;
+  
+ 
+}  
+
+.inputarea{
+  display: flex;
+  grid-template-areas: 'searchbar2';
+  height: 30px; 
+  width: 480px; 
+  border: transparent;
+  /* border-radius: 15px 15px; */
+  align-self: center;
+  margin-left: 6px;
+  margin-top: 2px;
+  text-decoration: none;
+  outline: none;
+}
+.handglass{
+  display: flex;
+  margin-left: 7px;
+  margin-top: 3px;
+  flex-direction: row;
+  width:26px;
+  height: 26px;
+  align-self: center;
+}
+.keyboard{
+  display: flex;
+  margin-left: 5px;
+  flex-direction: row;
+  width: 26px;
+  height: 26px;
+  align-self:center;
+}
+.buttons{
+  display: flex;
+  grid-area: 'searchbar2';
+  margin-top: 370px;
+  justify-content: space-between;
+  border-radius: 10px 10px;
+  text-decoration: none;
+}
+.google_search{
+  background-color: #f0f0f0;
+  border: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  align-self: center;
+  border-radius: 5px 5px;
+  margin-right: 10px;
+}
+.feelinglucky{
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  align-self: center;
+  margin-left: 10px;
+  border-radius: 5px 5px;
+}
+.footainer{
+  overflow: hidden;
+  position: fixed;
+  background-color: #efefef;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+  
+.footem{
+  float: left;
+  display: block;
+  color: grey;
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+  padding: 14px 16px;
+  font-size: 15px;
+}
+.footem2{
+  float: right;
+  display: block;
+  color: grey;
+  padding: 14px 16px;
+  font-size: 15px;
+  align-self: center;
+}
+a:hover{
+  text-decoration: none;
+}
+ .appsicon{
+  width:25px;
+  height: 25px;
+} 
+.appsicon:hover{
+  background-color: rgba(0, 0, 0, 0.13); 
+  border-radius: 100%;
+  height: 25px; 
+  width: 25px;
+}
